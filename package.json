@@ -1,0 +1,24 @@
+{
+  "name": "sample-mall-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sample Mall 示例商城前端：Vue 3 + Vite，PC 官网（/）与移动 H5（/m）双端，对接 sample-mall-server 网关",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
